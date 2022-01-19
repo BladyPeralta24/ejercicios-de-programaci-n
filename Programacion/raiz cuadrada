@@ -1,0 +1,9 @@
+raiz cuadrada de un numero con la inclusion de 3 decimales
+
+imprimir("introduce un numero")
+num = leer()
+raiz = 0
+Mientras (raiz*raiz < num) Hacer
+    r = r + 0,001
+Fin Mientras
+imprimir ("La raiz es"+raiz)

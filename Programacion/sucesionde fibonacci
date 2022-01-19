@@ -1,0 +1,32 @@
+sucesionde fibonacci
+
+num1 = 0
+num2 = 1
+imprimir (num1)
+imprimir (num2)
+Mientras num1>=0 Hacer
+    imprimir(num1)
+    aux = num1 + num2
+    num1 = num2
+    num2 = aux
+Fin Mientras
+
+
+Funcion Fibonacci(n)
+
+    si n = 0 o n = 1 entonces
+        devolver n
+    Sino
+        devolver Fibonacci (n-1) + Fibonacci  (n-2)
+    FinSi
+Fin Funcion
+
+sucesionde fibonacci
+
+i = 0
+Mientras verdadero Hacer
+    imprimir(Fibonacci(i))
+
+Fin Mientras
+
+prueba (0-1-1-2-3-5-8-...)
