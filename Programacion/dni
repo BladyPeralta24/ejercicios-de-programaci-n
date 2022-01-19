@@ -1,0 +1,14 @@
+proceso de validacion del DNI: vdni = "TRWAGMYFPDXBNJZSQVHLCKE", definira dependiendo del resto, la letra del DNI
+EJEMPLO: 78816379/23 -> resto:2; cociente:3426799; la letra del DNI es W
+resto= %(mod)
+
+Funcion ValidarNIF (nif)
+vdni = "TRWAGMYFPDXBNJZSQVHLCKE"
+resto = nif [0,7](int) % 23
+    si vdni[resto] = nif[8] entonces
+        devolver Verdadero
+    sino
+        devolver Falso
+    Fin si
+Fin Funcion
+

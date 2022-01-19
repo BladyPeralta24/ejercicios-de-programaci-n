@@ -1,0 +1,46 @@
+imprimir ("introduce un numero")
+num1 = leer()
+imprimir ("introduce otro numero")
+num2 = leer()
+suma = 0
+Mientras (num1<=num2) Entonces
+    num1 = num1 + 1
+    suma = suma + num1
+Fin Mientras
+imprimir (suma)
+
+otra alternativa
+
+imprimir ("introduce un numero")
+num1 = leer()
+imprimir ("introduce otro numero")
+num2 = leer()
+suma = 0
+si num1 = num2 Entonces
+    imprimir (num1)
+sinosi num1 < num2 Entonces
+    repetir
+        num1 =num1 + 1
+    hasta que num1 = num2
+imprimir ("El resultado es"+num1)
+Fin si
+
+otra alternativa
+
+imprimir ("introduce un numero")
+num1 = leer()
+imprimir ("introduce otro numero")
+num2 = leer()
+suma = 0
+
+Funcion Suma (num1,num2)
+    total = 0
+    Mientras num1 <= num2 hacer
+        total = total + num1
+        num1 = num1 + 1
+    Fin Mientras
+    devolver total
+Fin Funcion
+
+
+

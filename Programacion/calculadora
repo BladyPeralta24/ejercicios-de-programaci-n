@@ -1,0 +1,29 @@
+algoritmo calculadora es
+imprimir ("introduce un numero");
+num1 = leer ();
+imprimir ("introduce otro numero");
+num2 = leer ();
+imprimir ("introduce una operacion");
+operacion = leer ();
+Segun operacion Hacer
+    caso "suma";
+
+        resultado = num1 + num2;
+        
+    caso "resta";
+
+        resultado = num1 - num2;
+        
+    caso "mult";
+
+        resultado = num1 * num2;
+        
+    caso "Div";
+
+        Resultado = num1 / num2;
+
+Fin Segun
+Mientras operacion =/"suma" y operacion =/"resta" y operacion =/"mult" y operacion =/"Div" Hacer
+    imprimir ("que operacion vas a usar + - * /?")
+leer resultado;
+Fin Algoritmo

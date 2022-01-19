@@ -1,0 +1,20 @@
+que valla introduciendo valores y que luego nos devuelva el numero mayor introducido y el numero menor introducido, por el usuario
+imprimir ("introduce un numero")
+num=leer()
+i = 0
+    repetir
+        imprimir ("Introduce un numero")
+        n = leer()
+        i=i+1
+        max = num
+        min = num
+            si max>num entonces
+                max = n
+            Si no Si min< num entonces
+                min = n
+            Fin si
+    Hasta que i=100
+imprimir ("El numero maximo es:"+max)
+imprimir ("El numero minimo es:"+min)
+
+
